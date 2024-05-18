@@ -47,3 +47,49 @@
     
     
 }
+
+.auth {
+    width: 34%;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+
+    border-radius: 8px;
+    background: #363636;
+    color: #fff;
+    
+    padding: 20px;
+    
+    text-align: left;
+}
+
+.message-content {
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.message-content a {
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.message-content span {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 24px;
+}
