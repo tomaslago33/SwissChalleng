@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.welcome {
+    background-image: url(../img/login/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 75%;
+    height: 100vh;
+}
