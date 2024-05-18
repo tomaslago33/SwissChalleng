@@ -12,3 +12,25 @@
     width: 75%;
     height: 100vh;
 }
+
+.welcome-message p {
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+}
+
+.welcome-message button {
+    border-radius: 20px;
+    width: 155px;
+    box-shadow: none;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    
+    
+}
