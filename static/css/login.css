@@ -126,3 +126,25 @@
     text-align: left;
     color: rgb(54, 54, 54) !important;
 }
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login button {
+    background-color: #e4002b;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    text-transform: initial;
+    font-size: 16px;
+    font-weight: 400;
+    width: 155px;
+    margin-top: 32px;
+    box-shadow: none;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: white;
+}
