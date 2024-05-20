@@ -1,0 +1,37 @@
+.hola{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.spanHeader{
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
+ul li{
+    border-right: solid 2px black;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+ul li a:hover{
+    color: red;
+}
+.btn{
+    font-size: 13px !important
+}
+.borderNone{
+    border-right:  0px !important;
+}
+#grid{
+    font-size: 26px;
+}
