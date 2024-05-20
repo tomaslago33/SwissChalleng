@@ -164,3 +164,12 @@
 .password-recovery a:hover {
     border-bottom: .1px solid #e4002b;
 }
+
+input:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87) !important;
+  }
+
+label.active {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
