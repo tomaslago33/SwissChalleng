@@ -20,8 +20,9 @@ body{
     padding: 25px;
 }
 .titulo-campaña {
-    font: size 80px; 
+    font: size 100px; 
 }
+
 .container2 {
     height: 100vh;
     background-image: url(../img/home/imagen1.png);
