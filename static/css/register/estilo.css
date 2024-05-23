@@ -68,6 +68,9 @@ footer ul li b{
     color: white;
     cursor: default;
 }
+i{
+    color: #999;
+}
 .footerPadd{
     padding-left: 20px;
     padding-right: 20px;
