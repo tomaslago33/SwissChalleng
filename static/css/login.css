@@ -50,6 +50,14 @@ button {
     padding: .375rem .75rem;
 }
 
+.welcome-message button:hover {
+    background-color: transparent;
+}
+
+.welcome-message button:active {
+    background-color: transparent;
+}
+
 .auth {
     width: 34%;
     height: 100vh;
@@ -148,6 +156,14 @@ button {
     padding: .375rem .75rem;
     line-height: 1.5;
     color: white;
+}
+
+.login button:hover {
+    background-color: #e4002b;
+}
+
+.login button:active {
+    background-color: #e4002b;
 }
 
 .password-recovery {
