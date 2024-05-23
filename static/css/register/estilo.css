@@ -73,7 +73,36 @@ i{
 }
 .footerPadd{
     padding-left: 20px;
-    padding-right: 20px;
+    margin-right: 20px !important;
     padding-top: 100px;
     padding-bottom: 80px;
+}
+.registerContent{
+    background: rgba(206, 206, 206, 0.31);
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.formBlock{
+    background-color: white;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 120px;
+}
+.borde{
+    border-bottom: solid 2px red;
+}
+.centrar{
+    justify-content: center;
+    align-items: center;
+}
+.colorSecundario{
+    color: #999;
+}
+.tamañoIcono i{
+    font-size: 30px;
+}
+.active{
+    color: red;
 }
