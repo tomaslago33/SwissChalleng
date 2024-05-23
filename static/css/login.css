@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome {
+    background-image: url(../img/login/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: 66%;
+    height: 100vh;
+    padding: 0 5vw 12vh;
+
+    display:flex;
+    align-items: flex-end;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.welcome-message p {
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+}
+
+.welcome-message button {
+    border-radius: 20px;
+    width: 155px;
+    box-shadow: none;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+}
+
+.auth {
+    width: 34%;
+    height: 100vh;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: row;
+
+    background-color: #ffffff;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+
+    border-radius: 8px;
+    background: #363636;
+    color: #fff;
+    
+    padding: 20px;
+    
+    text-align: left;
+}
+
+.message-content {
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.message-content a {
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.message-content span {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 24px;
+}
+
+.swisslogo {
+    height: 80px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opacidad {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(23, 23, 23, 0.82);
+    opacity: 0.72;
+    z-index: -1;
+}
+
+.form-content {
+    width: 320px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(54, 54, 54) !important;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login button {
+    background-color: #e4002b;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    text-transform: initial;
+    font-size: 16px;
+    font-weight: 400;
+    width: 155px;
+    margin-top: 32px;
+    box-shadow: none;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.password-recovery {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+.password-recovery a {
+    color: #e4002b !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.password-recovery a:hover {
+    border-bottom: .1px solid #e4002b;
+}
+
+input:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87) !important;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.87) !important;
+  }
+
+label.active {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+label {
+    color: rgb(188, 188, 189) !important;
+}
+.checkdoctext {
+    color: black;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.43;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #000;
+}
