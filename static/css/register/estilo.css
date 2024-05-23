@@ -1,0 +1,79 @@
+
+*{
+    font-family: "Roboto", sans-serif !important;
+}
+html *{
+    font-family: var(--font-family-base) !important;
+}
+a{
+    text-decoration: none;
+}
+.textLarge{
+    font-size: 14px;
+}
+.centerContent{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.spanHeader{
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+}
+.centerContent ul li{
+    border-right: solid 2px black;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+ul li a:hover{
+    color: red;
+}
+.btn{
+    font-size: 14px !important;
+}
+.btnPadd{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.borderNone{
+    border-right:  0px !important;
+}
+#grid{
+    font-size: 26px;
+}
+footer{
+    background-color: #383838;
+}
+footer ul li{
+    color: #999;
+    text-decoration: none;
+    font-size: 14px !important;
+    border: none !important;
+    display: block !important;
+    cursor: pointer;
+    font-weight: 300;
+}
+footer ul li b{
+    color: white;
+    cursor: default;
+}
+i{
+    color: #999;
+}
+.footerPadd{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
