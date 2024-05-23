@@ -204,3 +204,8 @@ label {
 ul.dropdown-content.select-dropdown li span {
     color: #000;
 }
+
+input[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid red;
+    background-color: red;
+}
