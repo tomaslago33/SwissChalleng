@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+    max-width: 100%;
+
+}
+
+.container1 {
+    background-color: #e9e9e9 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+}
+.titulo-campaña {
+    font: size 80px; 
+}
+.container2 {
+    height: 100vh;
+    background-image: url(../img/home/imagen1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
