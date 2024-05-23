@@ -209,3 +209,12 @@ input[type="checkbox"].filled-in:checked+span:not(.lever):after {
     border: 2px solid red;
     background-color: red;
 }
+
+span.field-icon {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
