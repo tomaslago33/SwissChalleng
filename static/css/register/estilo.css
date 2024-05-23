@@ -26,7 +26,7 @@ ul{
 li{
     display: inline;
 }
-ul li{
+.centerContent ul li{
     border-right: solid 2px black;
 }
 ul li a{
@@ -51,4 +51,26 @@ ul li a:hover{
 }
 #grid{
     font-size: 26px;
+}
+footer{
+    background-color: #383838;
+}
+footer ul li{
+    color: #999;
+    text-decoration: none;
+    font-size: 14px !important;
+    border: none !important;
+    display: block !important;
+    cursor: pointer;
+    font-weight: 300;
+}
+footer ul li b{
+    color: white;
+    cursor: default;
+}
+.footerPadd{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
