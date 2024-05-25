@@ -210,6 +210,26 @@ input[type="checkbox"].filled-in:checked+span:not(.lever):after {
     background-color: red;
 }
 
+
+    /* Active/Inactive Valid input field color */
+    .input-field input.valid,
+    .input-field input.valid:focus,
+    .input-field textarea.valid,
+    .input-field textarea.valid:focus {
+        border-bottom: 1px solid #9e9e9e !important;
+        box-shadow: none !important;
+    }
+
+    /* Active/Inactive Valid input label color */
+    .input-field input.valid:focus+label,
+    .input-field input.valid~.helper-text::after,
+    .input-field input.valid:focus~.helper-text::after,
+    .input-field textarea.valid:focus+label,
+    .input-field textarea.valid~.helper-text::after,
+    .input-field textarea.valid:focus~.helper-text::after {
+        color: none !important;
+    }
+
 span.field-icon {
     float: right;
     position: absolute;
