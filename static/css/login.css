@@ -213,7 +213,7 @@ input[type="checkbox"].filled-in:checked+span:not(.lever):after {
 span.field-icon {
     float: right;
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 10px;
     cursor: pointer;
     z-index: 2;
