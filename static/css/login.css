@@ -22,10 +22,9 @@
 .welcome {
     background-image: url(../img/login/background.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-    width: 66%;
+    background-position-x: left;
+    background-size: contain;
+    width: 110%;
     height: 100vh;
     padding: 0 5vw 12vh;
 
@@ -76,7 +75,8 @@ button {
 }
 
 .auth {
-    width: 34%;
+    width: 518px;
+
     height: 100vh;
     padding: 20px;
     
