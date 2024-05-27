@@ -29,4 +29,25 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.titulo-asociar {
+    color: white;
+
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-left: 200px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+
+}
+h1 {
+    font-size: 50px;
 }
