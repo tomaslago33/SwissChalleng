@@ -56,3 +56,9 @@ h1 {
     margin: 20px 100px;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+}
