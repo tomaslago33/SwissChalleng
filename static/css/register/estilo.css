@@ -85,10 +85,7 @@ i{
 }
 .formBlock{
     background-color: white;
-    padding-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 120px;
+    padding: 56px 71px 110px 74px;
 }
 .borde{
     border-bottom: solid 2px red;
@@ -101,8 +98,31 @@ i{
     color: #999;
 }
 .tamañoIcono i{
-    font-size: 30px;
+    font-size: 25px;
 }
 .active{
     color: red;
+}
+.registerDetails{
+    margin-top: 80px;
+}
+.textoRegistro{
+   margin-bottom: 20px;
+}
+.registerContent form h4{
+    font-size: 20px;
+}
+.Genero{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.Genero p{
+    font-size: 15px;
+    color: #999;
+}
+.linea{
+    width: 200px;
+    position: absolute;
+    border: 3px solid #999;
+    border-radius: 100px;
 }
