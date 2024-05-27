@@ -51,3 +51,24 @@ p {
 h1 {
     font-size: 50px;
 }
+
+.container3 {
+    margin: 20px 100px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.contact1, .contact2, .contact3, .contact4, .contact5 {
+    padding: 0px;
+    font-size: 14px;
+    color: #363636;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
