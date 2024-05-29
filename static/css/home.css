@@ -28,15 +28,24 @@ body{
 }
 ._9RsnMJ9eXqlCrSxyf8gbY {
     color: #e4002b !important;
-    border:2px solid #e4002b ;
+    border:3px solid #e4002b ;
     text-transform: none !important;
     font-size: 16px;
     font-weight: 500;
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 50px !important;
 
 }
-
+.botonFijo{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    border-radius: 1000px !important;
+    background-color: white;
+}
 
 .container2 {
     height: 100vh;
