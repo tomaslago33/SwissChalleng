@@ -36,10 +36,13 @@ body{
     border-radius: 50px !important;
 
 }
+#iconoFijo{
+    font-size: 40px;
+}
 .botonFijo{
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 30px;
     width: 80px;
     height: 80px;
     border: 1px solid transparent;
