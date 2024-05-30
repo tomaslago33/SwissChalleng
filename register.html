@@ -49,37 +49,58 @@
     </nav>
     <div class="registerContent">
         <div class="formBlock rounded">
-            <div class="form">
-                <div class="row ">
-                    <div class="col col-sm-2"></div>
-                    <div class="col col-sm-3 text-center tamañoIcono active">
-                        <i class="bi bi-1-circle-fill active"></i>
-                        <p class="text-center"><b>Datos Personales</b></p>
+            <div id="form" class="form">
+                <div style="margin-left: 10%;">
+                    <div class="row">
+                        <div class="col col-sm-1"></div>
+                        <div class="col col-sm-2 text-end tamañoIcono active">
+                            <i class="bi bi-1-circle-fill active"></i>
+                            <p class=""><b>Datos Personales</b></p>
+                        </div>
+                        <div class="col col-sm-2">
+                            <div class="barritaNav"></div>
+                        </div> 
+                        <div style="float: left !important;width: 40px !important" class="col col-sm-2 text-center tamañoIcono">
+                            <i class="bi bi-2-circle-fill"></i>
+                            <p class="">Validacion</p>
+                        </div>
+                        <div class="col col-sm-2">
+                            <div class="barritaNav"></div>
+                        </div> 
+                        <div class="col col-sm-2 text-start tamañoIcono">
+                            <i class="bi bi-3-circle-fill"></i>
+                            <p class="">Datos de acceso</p>
+                        </div>
+                        <div class="col col-sm-2"></div>
+                                        
                     </div>
-                    <div class="col col-sm-3 text-center tamañoIcono">
-                        <i class="bi bi-2-circle-fill"></i>
-                        <p class="text-center">Validacion</p>
-                    </div>
-                    <div class="col col-sm-3 text-center tamañoIcono">
-                        <i class="bi bi-3-circle-fill"></i>
-                        <p class="text-center">Datos de acceso</p>
-                    </div>
-                    <div class="col col-sm-2"></div>                 
                 </div>
-                <h4><b>Registracion</b></h4>
-                <p>La registración está habilitada para integrantes del grupo familiar <b>mayores a 16 años y menores titulares.</b></p>
-                <h4 class="borde"><b>Datos Personales</b></h4>
+                <div class="mt-5 alineadoForm">
+                <h4 class="titulo"><b>Registracion</b></h4>
+                <p class="parrafo">La registración está habilitada para integrantes del grupo familiar <b>mayores a 16 años y menores titulares.</b></p>
+                <h4 class="borde titulo"><b>Datos Personales</b></h4>
                 <div class="d-flex centrar">
-                    <div class="d-block">
-                        <p class="d-inline">Tipo de documento <b>(Obligatorio)</b></p>
-                        <input id="select" type="">
+                    <div class="d-block mt-4 mb-4 p-2 alineadoForm2">
+                        <p class="d-inline tamaño">Tipo de documento <b>(Obligatorio)</b></p>
+                        <div>
+                            <div class="btn-group">
+                                <button id="botonDesplegable" class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Seleccionar
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
+                                </ul>
+                              </div>
+                        </div>
                     </div>
-                    <div class="d-block">
-                        <p class="d-inline">Número de documento <b>(Obligatorio)</b></p>
-                        <input type="text" name="" id="dni">                        
+                    <div class="m-0 p-2">
+                        <p class="m-0 tamaño">Número de documento <b>(Obligatorio)</b></p>
+                        <input class="inputFijo" type="text" name="" id="dni">                        
                     </div>
                 </div>
-                <div>
+                <div class="alineadoForm1">
                     <h4><b>Genero</b></h4>
                     <p>Únicamente te solicitamos este dato ya que lo necesitamos para reconocerte como socio. Por favor, ingresá el género que informaste al asociarte.</p>
                     <input type="radio"><label for="">Masculino</label>
@@ -88,6 +109,7 @@
                 <div class="w-100">
                     <center><button class="btn btn-danger">Continuar</button></center>
                     <a href="" class="text-danger text-center"><p class="text-center">Volver</p></a>
+                </div>
                 </div>
             </div>
         </div>
@@ -169,5 +191,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
