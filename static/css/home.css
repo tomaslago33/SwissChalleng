@@ -17,10 +17,37 @@ body{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 25px;
+    padding: 0px;
+    height: 86px;
+    flex-direction: row;
 }
 .titulo-campaña {
-    font: size 100px; 
+    font-size: 20px;
+    font-weight: 500;
+    color: #363636;
+}
+._9RsnMJ9eXqlCrSxyf8gbY {
+    color: #e4002b !important;
+    border:3px solid #e4002b ;
+    text-transform: none !important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 50px !important;
+
+}
+#iconoFijo{
+    font-size: 40px;
+}
+.botonFijo{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    border-radius: 1000px !important;
+    background-color: white;
 }
 
 .container2 {
@@ -47,6 +74,14 @@ p {
     color: white;
     font-size: 30px;
 
+}
+.titulo1 {
+    font-size: 55px;
+    margin-left: 200px;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 200px;
+    margin-bottom: 10px;
 }
 h1 {
     font-size: 50px;
